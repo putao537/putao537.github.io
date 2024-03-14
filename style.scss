@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 a {
-  color: #1772d0;
+  color: #07889b;/*#1772d0;*/
   text-decoration: none;
 }
 
@@ -23,26 +23,42 @@ a:hover {
   text-decoration: none;
 }
 
+img {
+  border: 0px solid #555;
+  border-radius: 5px;
+}
+
+video{
+  border: 0px solid #555;
+  border-radius: 5px;
+}
+
 body,
 td,
 th,
 tr,
 p,
 a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family:  Nunito; //, Lato, Verdana, Helvetica, sans-serif;
+  // font-family:  'TeXGyrePagella', 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+  // font-size: 15px; /*14px*/
   font-display: auto;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family:  Nunito, 'Lato', Verdana, Helvetica, sans-serif;
+  // font-size: 16px;
+  font-weight: 700;
   font-display: auto;
 }
 
 h2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  // font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-family:  Nunito, 'Lato', Verdana, Helvetica, sans-serif;
+  // font-family:  'TeXGyrePagella', 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+  font-size: 24px;
   font-display: auto;
   font-weight: normal;
   padding: 0px;
@@ -51,8 +67,10 @@ h2 {
 }
 
 h3 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family:  Nunito, 'Lato', Verdana, Helvetica, sans-serif;
+  // font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  // font-family:  'TeXGyrePagella', 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+  font-size: 16px;
   font-weight: 700;
   font-display: auto;
   padding: 0px;
@@ -61,8 +79,8 @@ h3 {
 }
 
 h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-family: Nunito, 'TeXGyrePagella', 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+  font-size: 46px;
   font-weight: normal;
   font-display: auto;
   text-align: center;
