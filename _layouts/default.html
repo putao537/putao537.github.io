@@ -86,7 +86,11 @@
           {% if cat == 'journal' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <div class="one" style="width:100%; height:auto; max-width:100%">
+                <div class="two" id='/tn{{post.image}}' style="width:100%; height:auto; max-width:100%">
+                    <img src='/tn{{post.image}}' style="width:100%; height:auto; max-width:100%">
+                </div>
+              <!-- <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" /> -->
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
