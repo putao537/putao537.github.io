@@ -11,3 +11,4 @@ arxiv: https://arxiv.org/abs/2008.00923
 code: https://github.com/HCPLab-SYSU/CD-FER-Benchmark
 benchmark: https://paperswithcode.com/task/cross-domain-facial-expression-recognition
 ---
+<span style="color:red">Oral Presentation</span>
