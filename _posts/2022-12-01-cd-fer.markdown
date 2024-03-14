@@ -4,9 +4,8 @@ title:  "Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchm
 date: 2022-12-01 00:00:00 +00:00
 image: /images/cd-fer/demo.png
 categories: journal
-author: ""
 authors: "Tianshui Chen*, <b>Tao Pu*</b>, Hefeng Wu, Yuan Xie, Lingbo Liu, Liang Lin"
-venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 2022."
+venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)"
 pdf: https://ieeexplore.ieee.org/document/9628054
 arxiv: https://arxiv.org/abs/2008.00923
 code: https://github.com/HCPLab-SYSU/CD-FER-Benchmark
