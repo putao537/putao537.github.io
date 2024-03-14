@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels"
+date: 2022-02-22 00:00:01 +00:00
+image: /images/SARB/demo.png
+categories: conference
+authors: "<b>Tao Pu*</b>, Tianshui Chen*, Hefeng Wu, Liang Lin"
+venue: "AAAI"
+pdf: https://ojs.aaai.org/index.php/AAAI/article/view/20105/19864
+arxiv: https://arxiv.org/abs/2203.02172
+code: https://github.com/HCPLab-SYSU/HCP-MLR-PL
+benchmark: https://paperswithcode.com/task/multi-label-image-recognition-with-partial
+---

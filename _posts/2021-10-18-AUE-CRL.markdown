@@ -1,0 +1,12 @@
+---
+layout: post
+title: "AU-Expression Knowledge Constrained Representation Learning for Facial Expression Recognition"
+date: 2021-10-18 00:00:00 +00:00
+image: /images/AUE-CRL/demo.png
+categories: conference
+authors: "<b>Tao Pu</b>, Tianshui Chen, Yuan Xie, Hefeng Wu, Liang Lin"
+venue: "ICRA"
+pdf: https://ieeexplore.ieee.org/document/9561252
+arxiv: https://arxiv.org/abs/2012.14587
+code: https://github.com/HCPLab-SYSU/AUE-CRL
+---

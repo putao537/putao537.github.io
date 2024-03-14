@@ -2,7 +2,7 @@
 layout: post
 title:  "Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning"
 date: 2022-12-01 00:00:00 +00:00
-image: /images/cd-fer/demo.png
+image: /images/CD-FER/demo.png
 categories: journal
 authors: "Tianshui Chen*, <b>Tao Pu*</b>, Hefeng Wu, Yuan Xie, Lingbo Liu, Liang Lin"
 venue: "IEEE TPAMI"

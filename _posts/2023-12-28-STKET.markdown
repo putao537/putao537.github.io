@@ -2,7 +2,7 @@
 layout: post
 title: "Spatial–Temporal Knowledge-Embedded Transformer for Video Scene Graph Generation"
 date: 2023-12-28 00:00:00 +00:00
-image: /images/stket/demo.png
+image: /images/STKET/demo.png
 categories: journal
 authors: "<b>Tao Pu</b>, Tianshui Chen, Hefeng Wu, Yongyi Lu, Liang Lin"
 venue: "IEEE TIP"
