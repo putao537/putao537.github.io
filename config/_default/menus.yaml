@@ -11,7 +11,7 @@ main:
     url: '#talks'
     weight: 20
   - name: Publications
-    url: '#featured'
+    url: '#publication'
     weight: 30
 
 # Link to a PDF of your resume/CV from the menu.
