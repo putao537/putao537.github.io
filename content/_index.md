@@ -58,7 +58,7 @@ sections:
         - title: Research Intern
           company: 'CoRe Lab, PKU'
           company_url: ''
-          company_logo: org-gc
+          company_logo: CoRe-PKU
           location: 'Beijing, China'
           date_start: '2023-09-01'
           date_end: ''
