@@ -42,6 +42,18 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+
+  - block: collection
+    id: featured
+    content:
+      title: Featured Research
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
   
   - block: experience
     content:
@@ -81,7 +93,7 @@ sections:
       title: Publications
       text: |-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+        [Search all publications](./publication/).
         {{% /callout %}}
       filters:
         folders:
