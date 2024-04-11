@@ -62,7 +62,7 @@ sections:
           location: 'Beijing, China'
           date_start: '2023-09-01'
           date_end: ''
-          description: 'Topic: Protocol-guided Biology Video Understanding, Advisor: [Dr. Yixin Zhu](https://yzhu.io/)'
+          description: 'Topic: Protocol-guided Biology Video Understanding \n Advisor: [Dr. Yixin Zhu](https://yzhu.io/)'
     design:
       columns: '2'
   
