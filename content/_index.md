@@ -56,7 +56,7 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Intern
-          company: CoRe Lab, PKU
+          company: 'CoRe Lab, PKU'
           company_url: ''
           company_logo: org-gc
           location: 'Beijing, China'
