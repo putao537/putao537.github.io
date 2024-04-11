@@ -89,6 +89,7 @@ sections:
       columns: '2'
   
   - block: collection
+    id: publication
     content:
       title: Publications
       text: |-
