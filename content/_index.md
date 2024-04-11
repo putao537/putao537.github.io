@@ -42,29 +42,6 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-
-  - block: markdown
-    content:
-      title: News
-      items:
-        - date: '2024-03'
-          description: 'I am co-organizing the AI for Math Workshop and Challenge at ICML 2024. 😊 Welcome to submit your pioneering work and take on the exciting challenges!'
-        - date: '2024-03'
-          description: 'Our workshop proposal for AI for Math is accepted to ICML 2024.'
-        - date: '2024-03'
-          description: 'One paper is accepted to NAACL 2024 Findings.'
-        - date: '2024-01'
-          description: 'Two papers (one spotlight, one oral) are accepted to ICLR 2024.'
-        - date: '2023-10'
-          description: 'One paper is accepted to EMNLP 2023.'
-        - date: '2023-06'
-          description: 'Honored to receive Honors Graduate from Sun Yat-sen University.'
-        - date: '2023-05'
-          description: 'I successfully defended my Ph.D. dissertation!'
-        - date: '2023-05'
-          description: 'One first-authored paper is accepted to IEEE TPAMI.'
-    design:
-      columns: '2'
   
   - block: experience
     content:
@@ -86,6 +63,15 @@ sections:
           date_start: '2023-09-01'
           date_end: ''
           description: 'Topic: Procedural Video Activity Understanding. Advisor: [Dr. Yixin Zhu](https://yzhu.io/)'
+         - title: Research Intern
+          company: 'DMAI Inc. (an AI startup)'
+          company_url: ''
+          company_logo: DMAI
+          location: 'Guangzhou, China'
+          date_start: '2019-02-01'
+          date_end: '2020-05-01'
+          description: 'Topic: Cross-domain Facial Expression Recognition. Advisor: [Dr. Tianshui Chen](http://tianshuichen.com/index.html)'
+    
     design:
       columns: '2'
   
