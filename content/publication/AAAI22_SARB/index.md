@@ -1,5 +1,5 @@
 ---
-title: '[AAAI 2022] SARB'
+title: '[AAAI 2022] Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,19 +7,19 @@ title: '[AAAI 2022] SARB'
 authors:
   - admin
   - Tianshui Chen
-  - Yuan Xie
   - Hefeng Wu
   - Liang Lin
 
 # Author notes (optional)
 author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
 
-
-date: '2021-10-18T00:00:00Z'
+date: '2022-02-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2021-10-18T00:00:00Z'
+publishDate: '2022-02-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -45,8 +45,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/document/9561252'
-url_code: 'https://github.com/HCPLab-SYSU/AUE-CRL'
+url_pdf: 'https://aaai-2022.virtualchair.net/poster_aaai1134'
+url_code: 'https://github.com/HCPLab-SYSU/HCP-MLR-PL'
 url_dataset: ''
 url_poster: ''
 url_project: ''
