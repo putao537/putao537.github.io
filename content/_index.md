@@ -83,7 +83,7 @@ sections:
           location: 'Guangzhou, China'
           date_start: '2019-02-01'
           date_end: '2020-05-01'
-          description: 'Topic: Cross-domain Facial Expression Recognition. Advisor: [Dr. Tianshui Chen](http://tianshuichen.com/index.html)'
+          description: 'Topic: Cross-domain Facial Expression Recognition. Mentor: [Dr. Tianshui Chen](http://tianshuichen.com/index.html)'
     
     design:
       columns: '2'
