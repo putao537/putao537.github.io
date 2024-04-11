@@ -64,7 +64,7 @@ sections:
         - date: '2023-05'
           description: 'One first-authored paper is accepted to IEEE TPAMI.'
     design:
-      columns: '1'
+      columns: '2'
   
   - block: experience
     content:
