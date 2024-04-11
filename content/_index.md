@@ -63,7 +63,8 @@ sections:
           date_start: '2023-09-01'
           date_end: ''
           description: 'Topic: Procedural Video Activity Understanding. Advisor: [Dr. Yixin Zhu](https://yzhu.io/)'
-         - title: Research Intern
+    
+        - title: Research Intern
           company: 'DMAI Inc. (an AI startup)'
           company_url: ''
           company_logo: DMAI
