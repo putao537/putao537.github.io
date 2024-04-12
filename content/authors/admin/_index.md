@@ -67,7 +67,12 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+I am currently a Ph.D. student from the School of Computer Science and Engineering at Sun Yat-sen University.
+I am grateful to join the <a href="http://www.sysu-hcp.net">HCP Lab</a> and be advised by Prof. <a href="http://www.linliang.net">Liang Lin</a>.
+Before that, I received my Bachelor's Degree from Sun Yat-sen University in 2020.
+             
+I'm broadly interested in visual understanding. The goal of my research is to build general-purpose agents that can abstract the environment from a human-oriented perspective and have versatile motor skills in challenging scenarios.
 
-My research interests include distributed robotics, mobile computing and programmable matter.
+<a href="/uploads/resume.pdf">[cv]</a>
 
 {style="text-align: justify;"}
