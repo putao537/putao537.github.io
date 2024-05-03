@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2211.07846'
+url_pdf: 'https://ieeexplore.ieee.org/document/10517428'
 url_code: 'https://github.com/HCPLab-SYSU/MLR-PPL'
 url_dataset: ''
 url_poster: ''
