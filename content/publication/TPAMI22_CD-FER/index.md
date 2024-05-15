@@ -43,9 +43,9 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: 知乎
+  url: https://zhuanlan.zhihu.com/p/353606619
 
 url_pdf: 'https://ieeexplore.ieee.org/document/9628054'
 url_code: 'https://github.com/HCPLab-SYSU/CD-FER-Benchmark'
