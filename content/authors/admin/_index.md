@@ -29,8 +29,8 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Computer Vision
-  - Embodied Agent
+  - Video Understanding
+  - Embodied Intelligence
 
 # Education to show in About widget
 education:
