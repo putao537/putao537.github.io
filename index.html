@@ -82,6 +82,19 @@
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <script src="script/functions.js"></script>
+
+  <script>
+    // 实现 toggleblock 函数
+    function toggleblock(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+  </script>
+
   </head>
   <body>
   <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
@@ -109,29 +122,10 @@
         </td>
         <td width="33%">
           <img src="media/profile.jpg" width="250" alt="headshot">
-          <!--<div class="one">
-          <div class="two" id="headshot_image"><img src="media/color_headshot.png" width="250" alt="headshot"></div>
-          <img src="media/bw_headshot.png" width="250" alt="headshot">
-          </div>
-          <script type="text/javascript">
-          function headshot_start() {
-          document.getElementById('headshot_image').style.opacity = "1";
-          }
-          function headshot_stop() {
-          document.getElementById('headshot_image').style.opacity = "0";
-          }
-          filters_stop()
-          </script>-->
         </td>
-        <!--<td width="33%">
-        <img src="media/bw_headshot.png" width="250">
-        <img src="media/color_headshot.png" width="250">
-        </td>-->
+
       </tr>
-      <!-- <td width="10%"><a href="adsc.illinois.edu"><img src="media/adsc_logo.png" width="100"></a></td>
-      <td width="10%"><a href="https://www.inria.fr/en/"><img src="media/inria_logo.jpg" width="100"></a></td>
-      <td width="10%"><a href="https://vision.in.tum.de"><img src="media/tum_logo.jpg" width="100"></a></td>
-      <td width="10%"><a href="https://www.vibot.org"><img src="media/vibot_logo_transparent.png" width="50"></a></td> -->
+      
       </table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
@@ -156,7 +150,7 @@
               <a href="javascript:toggleblock(&#39;old_news&#39;)">---- show more ----</a>
               <div id="old_news" style="display: none;">
               
-            </div></div>
+              </div>
             </ul>
         </td>
       </tr>
@@ -172,7 +166,7 @@
       </table>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20" >
-
+      <!--
         <tr onmouseout="TIP2024_STKET_stop()" onmouseover="TIP2024_STKET_start()">  
           <td width="25%">
             <div class="one">
@@ -208,23 +202,34 @@
             <p></p>
           </td>
         </tr>
-    
-        <tr onmouseout="IJCV2024_HST_stop()" onmouseover="IJCV2024_HST_start()">  
+      -->
+
+        <tr>  
           <td width="25%">
-            <div class="one">
-            <div class="two" id = 'IJCV2024_HST'>
-              <img src='media/IJCV2024_HST.png' width="160" height="124"></div>
-            <img src='media/IJCV2024_HST.png' width="160" height="124"></div>
-            <script type="text/javascript">
-            function IJCV2024_HST_start() { 
-            document.getElementById('IJCV2024_HST').style.opacity = "1";
-            }
-            function IJCV2024_HST_stop() { 
-            document.getElementById('IJCV2024_HST').style.opacity = "0"; 
-            }
-            IJCV2024_HST_stop()
-            </script>
-            </script>
+            <img src='media/TIP2024_STKET.png' width="160" height="124">
+          </td>
+          <td valign="top" width="75%">
+                <papertitle>
+                  Spatial–Temporal Knowledge-Embedded Transformer for Video Scene Graph Generation
+                </papertitle>
+              </a>
+          <br>
+              <strong>Tao Pu*</strong>, Tianshui Chen* &#8224;, Hefeng Wu, Yongyi Lu, Liang Lin
+          <br>
+              <em>IEEE Transactions on Image Processing (<strong>TIP</strong>)</em>, 2024
+            <br>
+            <a href="https://ieeexplore.ieee.org/document/10375886">Paper</a> |
+            <a href="https://github.com/HCPLab-SYSU/STKET">Code</a> |
+            <a href="bib/TIP2024_STKET.bib" target="_blank">Cite</a>
+            <p></p>
+            <strong>TL;DR:</strong> A video scene graph generation approach that incorporates the prior spatial-temporal knowledge to learn better representations.
+            <p></p>
+          </td>
+        </tr>
+    
+        <tr>  
+          <td width="25%">
+            <img src='media/IJCV2024_HST.png' width="160" height="124">
           </td>
           <td valign="top" width="75%">
                 <papertitle>
@@ -246,22 +251,9 @@
           </td>
         </tr>
 
-        <tr onmouseout="TPAMI2022_CDFER_stop()" onmouseover="TPAMI2022_CDFER_start()">  
+        <tr>  
           <td width="25%">
-            <div class="one">
-            <div class="two" id = 'TPAMI2022_CDFER'>
-              <img src='media/TPAMI2022_CDFER.png' width="160" height="124"></div>
-            <img src='media/TPAMI2022_CDFER.png' width="160" height="124"></div>
-            <script type="text/javascript">
-            function TPAMI2022_CDFER_start() { 
-            document.getElementById('TPAMI2022_CDFER').style.opacity = "1";
-            }
-            function TPAMI2022_CDFER_stop() { 
-            document.getElementById('TPAMI2022_CDFER').style.opacity = "0"; 
-            }
-            TPAMI2022_CDFER_stop()
-            </script>
-            </script>
+            <img src='media/TPAMI2022_CDFER.png' width="160" height="124">
           </td>
           <td valign="top" width="75%">
                 <papertitle>
@@ -280,6 +272,23 @@
             <p></p>
             <strong>TL;DR:</strong> One of the largest CD-FER evaluation benchmarks that unifies the source/target datasets and feature extractors for existing algorithms.
             <p></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <a href="javascript:toggleblock('all_publications')">---- see the complete list ----</a>
+            <ul id="all_publications" style="display: none;">
+              <li><strong>T Pu</strong>, T Chen&#8224;, H Wu, Y Lu, L Lin, "Spatial-temporal knowledge-embedded transformer for video scene graph generation", IEEE Transactions on Image Processing (<strong>TIP</strong>), 2024.</li>
+              <li><strong>T Pu*</strong>, Q Lao*, H Wu&#8224;, T Chen, L Tian, J Liu, L Lin, "Category-Adaptive Label Discovery and Noise Rejection for Multi-label Recognition with Partial Positive Labels", IEEE Transactions on Multimedia (<strong>TMM</strong>), 2024.</li>
+              <li>T Chen*&#8224;, <strong>T Pu*</strong>, L Liu, Y Shi, Z Yang, L Lin, "Heterogeneous Semantic Transfer for Multi-label Recognition with Partial Labels", International Journal of Computer Vision (<strong>IJCV</strong>), 2024.</li>
+              <li>T Chen, W Wang, <strong>T Pu</strong>, J Qin&#8224;, Z Yang, J Liu, L Lin, "Dynamic Correlation Learning and Regularization for Multi-Label Confidence Calibration (<strong>TIP</strong>), 2024.</li>
+              <li>T Chen*, <strong>T Pu*</strong>, H Wu&#8224;, Y Xie, L Liu, L Lin, "Cross-domain facial expression recognition: A unified evaluation benchmark and adversarial graph learning", IEEE transactions on pattern analysis and machine intelligence (<strong>TPAMI</strong>), 2022.</li>
+              <li><strong>T Pu*</strong>, T Chen*, H Wu, L Lin&#8224;, "Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels", Proceedings of the AAAI conference on artificial intelligence (<strong>AAAI</strong>), 2022.</li>
+              <li>T Chen*, <strong>T Pu*</strong>, H Wu, Y Xie, L Lin&#8224;, "Structured Semantic Transfer for Multi-Label Recognition with Partial Labels", Proceedings of the AAAI conference on artificial intelligence (<strong>AAAI</strong>), 2022.</li>
+              <li><strong>T Pu</strong>, T Chen&#8224;, Y Xie, H Wu, L Lin, "Au-expression knowledge constrained representation learning for facial expression recognition", IEEE international conference on robotics and automation (<strong>ICRA</strong>), 2021.</li>
+              <li>Y Xie, T Chen&#8224;, <strong>T Pu</strong>, H Wu, L Lin, "Adversarial graph representation adaptation for cross-domain facial expression recognition", Proceedings of the 28th ACM international conference on Multimedia (<strong>ACM MM</strong>), 2020.</li>
+            </ul>
           </td>
         </tr>
   
